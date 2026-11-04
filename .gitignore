@@ -1,0 +1,20 @@
+# Build Maven
+target/
+
+# Banco de dados gerado em runtime
+*.db
+
+# Arquivos de IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+bin/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
