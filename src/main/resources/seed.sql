@@ -1,7 +1,11 @@
--- Dados de exemplo, inseridos apenas quando o banco é criado.
+-- Dados iniciais de exemplo para o sistema de locação de caçambas.
+-- Este script é executado apenas na criação do banco de dados.
 
 INSERT INTO Cliente (cpfCnpj, nomeRazaoSocial, endereco, cidade, estado, telefone, email)
 VALUES ('12345678901', 'Construtora Silva Ltda', 'Rua das Obras, 100', 'Campo Grande', 'MS', '67999990000', 'contato@silva.com');
+
+INSERT INTO Cliente (cpfCnpj, nomeRazaoSocial, endereco, cidade, estado, telefone, email)
+VALUES ('98765432100', 'Maria Oliveira', 'Rua das Flores, 25', 'Campo Grande', 'MS', '67999991111', 'maria.oliveira@exemplo.com');
 
 INSERT INTO TipoCacamba (codigo, descricao, capacidadeVolumetrica, precoDiario)
 VALUES ('TC-4M', 'Caçamba 4 m³', 4.0, 35.00);
