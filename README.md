@@ -27,6 +27,13 @@ mvn package      # gera o .jar em target/
 
 As dependências (FlatLaf, sqlite-jdbc, JUnit) são baixadas automaticamente pelo Maven.
 
+## Solução de problemas
+- **Banco aparece vazio / "os dados sumiram":** o arquivo `tche_entulhos.db` é
+  criado na pasta onde a aplicação é executada. Rodar pela IDE e pelo terminal pode
+  gerar bancos diferentes. Rode sempre a partir da mesma pasta (a raiz do projeto).
+- **Erro ao aplicar o tema (FlatLaf):** a aplicação continua funcionando com a
+  aparência padrão do sistema caso o tema não carregue.
+
 ## Estrutura
 ```
 src/main/java/
